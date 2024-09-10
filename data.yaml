@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['Chainsaw']
+
+roboflow:
+  workspace: ppp-adit
+  project: ppp-djmtp
+  version: 6
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ppp-adit/ppp-djmtp/dataset/6
